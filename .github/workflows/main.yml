@@ -1,0 +1,10 @@
+name: lab3_fouad
+on: push
+jobs:
+ j1:
+  runs-on: ubuntu-latest
+  steps:
+     - name: st2
+       run: echo "hello"
+     - name: st2t
+       run: echo "fhjhiw"
